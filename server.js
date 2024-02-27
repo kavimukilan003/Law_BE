@@ -21,7 +21,7 @@ const RegAttorneyModel = require("./models/RegAttorneyModel");
 const {MongoClient} = require("mongodb")
 const io = new Server(server, {
   cors: {
-    origin: "*",
+    origin: "http://localhost:8080",
     methods: ["GET", "POST"],
   },
 });
