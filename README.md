@@ -1,2 +1,5 @@
-# Law_BE
- 
+# raincomputing_backendweb
+
+yarn install
+
+yarn start
