@@ -21,7 +21,7 @@ const RegAttorneyModel = require("./models/RegAttorneyModel");
 const {MongoClient} = require("mongodb")
 const io = new Server(server, {
   cors: {
-    origin: "https://law-rain.vercel.app",
+    origin: "*",
     methods: ["GET", "POST"],
   },
 });
