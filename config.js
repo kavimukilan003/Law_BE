@@ -8,7 +8,7 @@ const config = {
   SENDER_MAIL: "rpmongotest@gmail.com",
   MAIL_PASSWORD: "hspbrzryscrtuqqf",
   RESET_PASSWORD: "dev123",
-  FE_URL: "https://raincomputing.net",
+  FE_URL: "https://law-rain.vercel.app",
   DEFAULT_RES_ERROR: "Something wrong occured",
   MAIL_CLIENT_ID:
     "729499635503-cdvdr8eba2h50m0qv5skfpclvoa1jbuk.apps.googleusercontent.com",

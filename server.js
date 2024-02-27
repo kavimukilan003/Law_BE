@@ -208,7 +208,7 @@ const create = async () => {
                                 to: recivingUser.email,
                                 subject: "New message in chat",
                                 html: `<div><h3> Hello ${recivingUser.firstname}  ${recivingUser.lastname},</h3><p>Raincomputing Messages</p>
-                              <a href="http://raincomputing.azurewebsites.net/chat-rc">View Message</a></div>`,
+                              <a href="https://law-rain.vercel.app/chat-rc">View Message</a></div>`,
                               };
                               const mailResult = await sendMail(mailOptions);
                               console.log("Mail response", mailResult);
@@ -283,7 +283,7 @@ const create = async () => {
               to: recivingUser.email,
               subject: "New message in chat",
               html: `<div><h3> Hello ${recivingUser.firstname}  ${recivingUser.lastname},</h3><p>You have a New message</p>
-              <a href="http://raincomputing.net/chat-rc">View Message</a></div>`,
+              <a href="https://law-rain.vercel.app/chat-rc">View Message</a></div>`,
             };
             const mailResult = await sendMail(mailOptions);
             console.log("Mail response", mailResult);
